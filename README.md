@@ -13,3 +13,5 @@ Application developers can then use the drawings in their .NET applications.
 ## About Open CASCADE Technology (OCCT)
 The complete distribution can be cloned from the https://github.com/Open-Cascade-SAS/OCCT.
 This allows you to use additional parts, build the library with different options or make code changes. The currently used version can be found in the about dialog.
+
+## Software Description
