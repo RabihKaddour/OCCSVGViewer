@@ -1,6 +1,6 @@
 # Welcome to OCCSVG
 
-OCCSVGViewer is a Windows GUI that uses the <b>OCCSVG</b> package to render SVG files. The OCCSVG NuGet package, available at: <code style="color : red">Missing link to download from NuGet</code>, is designed to read SVG files and import their various elements into a .NET application. 
+OCCSVGViewer is a Windows GUI <b>DEMO</b> that uses the <b>OCCSVG</b> package to read and render SVG files. The OCCSVG NuGet package, available at: <code style="color : red">Missing link to download from NuGet</code>, is designed to read SVG files and import their various elements into a .NET application. 
 
 This package is built upon several key technologies: .Net, C#, C++/CLI and Occt.NET (version 7.9.0) based on Open CASCADE Technology (OCCT), also available from: https://www.nuget.org/packages/Occt.NET
 
