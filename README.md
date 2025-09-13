@@ -12,7 +12,6 @@ It supports most types of gradients, patterns, which gives designers the freedom
 Application developers can then use the drawings in their .NET applications. <br>
 
 <img width="939" height="571" alt="image" src="https://github.com/user-attachments/assets/8c336e3e-ef01-4456-81c0-9a07036cb918" />
-<img width="940" height="576" alt="image" src="https://github.com/user-attachments/assets/26e2ee65-46e3-4d0f-994f-285ff3892cf8" />
 
 <br>
 
@@ -38,9 +37,9 @@ This allows you to use additional parts, build the library with different option
 
 <br>
 
-## Software Description
+# Software Description
 
-<b>Start Application</b><br>
+## Start Application
 Before you start the application, make sure that the Occt.NET dll is copied into the Application’s debug or release folder.<br>
 
 <b>From:</b> OCCSVGViewer\bin\Debug\net8.0-windows\occt\x64\
@@ -53,12 +52,11 @@ Before you start the application, make sure that the Occt.NET dll is copied into
 <img width="522" height="269" alt="image" src="https://github.com/user-attachments/assets/b3f2fc2a-8df1-4176-b267-abfed4a1863b" />
 <br>
 
-<b>Unit pixel</b><br>
+## Unit pixel
 The default unit is currently pixels. Later, user will be able to choose their own units, such as inches, points, centimeters or millimeters.<br>
 
 <img width="555" height="156" alt="image" src="https://github.com/user-attachments/assets/497a055b-8417-4189-892d-31a149e5fad2" />
 <br>
-
 <br>
 
 ## Display mode (Wire or Shaded)
@@ -71,4 +69,16 @@ The default unit is currently pixels. Later, user will be able to choose their o
 <img width="945" height="578" alt="image" src="https://github.com/user-attachments/assets/cfb32248-b26e-477d-87c4-03db597eb84b" />
 <br>
 
+## Topology Model 
+<div>Topology optimization is a fast and easy way to maximize a park’s performance based on a set of constraints. </div><br>
+<div>In a topology model, maintain clarity by creating single, self-contained bodies with their modeling histories, arranged as modifier stacks. These bodies can them interact with each other. For a clean workspace, sort them into layers.
+</div>
+<br>
+<img width="472" height="645" alt="image" src="https://github.com/user-attachments/assets/1d577764-37a6-4c91-8cb9-c3fb3e2e2af0" />
+<br>
+
+## Show report
+The report shows a system log file that lists all information about the model's load, including failed loads and bugs.<br>
+
+<img width="940" height="577" alt="image" src="https://github.com/user-attachments/assets/a3b9f1b3-d4e5-4e25-aa31-8eec5b4d8e85" />
 
