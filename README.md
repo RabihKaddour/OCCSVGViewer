@@ -60,10 +60,15 @@ The default unit is currently pixels. Later, user will be able to choose their o
 <br>
 
 <br>
-<b>Display mode (Wire or Shaded)</b><br>
-<b>Wire</b>: The SVG elements will be displayed in Wireframe and it's no longer possible to show them in shaded mode. Here you can handle the element as a Curves model, which reduces the computational effort to display them.
-<br>
-<b>Shaded:</b> In "Shaded mode", the elements retain their original background color (stored in the SVG file). You can handle the element here as Face and Curves model.
 
+## Display mode (Wire or Shaded)
+* <b>Wire</b>: The SVG elements will be displayed in Wireframe and it's no longer possible to show them in shaded mode. Here you can handle the element as a Curves model, which reduces the computational effort to display them.
+* <b>Shaded:</b> In "Shaded mode", the elements retain their original background color (stored in the SVG file). You can handle the element here as Face and Curves model.
+
+<br>
+<img width="531" height="347" alt="image" src="https://github.com/user-attachments/assets/7ef896bb-4417-4a27-9fb8-bb23a1f76210" />
+<br>
+<img width="945" height="578" alt="image" src="https://github.com/user-attachments/assets/cfb32248-b26e-477d-87c4-03db597eb84b" />
+<br>
 
 
