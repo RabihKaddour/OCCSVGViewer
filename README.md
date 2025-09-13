@@ -43,12 +43,13 @@ This allows you to use additional parts, build the library with different option
 <b>Start Application</b><br>
 Before you start the application, make sure that the Occt.NET dll is copied into the Application’s debug or release folder.<br>
 
-<b>From:</b> OCCSVGViewer\bin\Debug\net8.0-windows\occt\x64\
+<b>From:</b> 
+#highlight(yellow)[OCCSVGViewer\bin\Debug\net8.0-windows\occt\x64\]
 <br>
 <img width="526" height="236" alt="image" src="https://github.com/user-attachments/assets/53b8efb8-0bd1-4f72-9828-07cb6a4a26c6" />
 <br><br>
 
-<b>To:</b> <span style="background-color: yellow;">OCCSVGViewer\bin\Debug\net8.0-windows</span>
+<b>To:</b> OCCSVGViewer\bin\Debug\net8.0-windows\
 <br>
 <img width="522" height="269" alt="image" src="https://github.com/user-attachments/assets/b3f2fc2a-8df1-4176-b267-abfed4a1863b" />
 <br>
