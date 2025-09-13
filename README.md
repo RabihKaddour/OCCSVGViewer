@@ -11,6 +11,10 @@ The <b>OCCSVG NuGet package</b> is built upon several key technologies: .Net, C#
 It supports most types of gradients, patterns, which gives designers the freedom to define their drawings in almost any vector drawing application and save them into SVG file. 
 Application developers can then use the drawings in their .NET applications. 
 
+<img width="939" height="571" alt="image" src="https://github.com/user-attachments/assets/8c336e3e-ef01-4456-81c0-9a07036cb918" />
+<img width="940" height="576" alt="image" src="https://github.com/user-attachments/assets/26e2ee65-46e3-4d0f-994f-285ff3892cf8" />
+
+
 ## About Open CASCADE Technology (OCCT)
 The complete distribution can be cloned from the https://github.com/Open-Cascade-SAS/OCCT.
 This allows you to use additional parts, build the library with different options or make code changes. The currently used version can be found in the about dialog.
