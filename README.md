@@ -11,6 +11,15 @@ The <b>OCCSVG NuGet package</b> is built upon several key technologies: .Net, C#
 It supports most types of gradients, patterns, which gives designers the freedom to define their drawings in almost any vector drawing application and save them into SVG file. 
 Application developers can then use the drawings in their .NET applications. <br>
 
+You can also use <b>OCCSVG.dll</b> for testing, copied in the Libraries folder <br>
+<img width="299" height="143" alt="image" src="https://github.com/user-attachments/assets/ad176e8d-7632-456f-b440-f63c58445364" />
+<br>
+
+<img width="282" height="134" alt="image" src="https://github.com/user-attachments/assets/ecd7627e-8eec-4e00-ac82-c3874a02087b" />
+<br><br>
+
+## Software Face
+<br><br>
 <img width="939" height="571" alt="image" src="https://github.com/user-attachments/assets/8c336e3e-ef01-4456-81c0-9a07036cb918" />
 
 <br>
