@@ -13,5 +13,5 @@ Application developers can then use the drawings in their .NET applications.
 # About OpenCASCADE Technology (OCCT)
 The restore script downloads a pre-built version of Open CASCADE Technology (OCCT) so that the project can be built immediately. 
 This package contains only the parts that are used in this project. The complete distribution can be cloned from the
-https://github.com/Open-Cascade-SAS/OCCT
+https://github.com/Open-Cascade-SAS/OCCT.
 This allows to use additional parts, build the library with other build options or to make code changes. The currently used version can be found in the about dialog.
