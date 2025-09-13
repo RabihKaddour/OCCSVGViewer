@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 550 350" xmlns="http://www.w3.org/2000/svg">
+  <circle style="stroke: rgb(76, 83, 53); stroke-width: 5px; fill: rgb(186, 218, 85);" cx="74.788" cy="66.23" r="56.125" id="circ3663"/>
+  <circle style="stroke: rgb(76, 83, 53); stroke-width: 5px; fill: none;" cx="92.057" cy="205.951" r="56.125"/>
+  <ellipse style="stroke: rgb(76, 83, 53); stroke-width: 5px; fill: none;" cx="91.101" cy="206.333" rx="67.514" ry="40.929"/>
+  <circle style="stroke-width: 5px; fill: none; stroke-dasharray: 4px; stroke: rgb(246, 0, 41);" cx="250.511" cy="64.628" r="56.125"/>
+  <ellipse style="stroke-width: 5px; fill: none; stroke-dasharray: 5px; stroke: rgb(140, 183, 0);" cx="249.555" cy="65.009" rx="67.514" ry="40.929"/>
+  <ellipse style="stroke-width: 5px; stroke: rgb(76, 83, 53); fill: rgb(205, 236, 1);" cx="263.181" cy="203.615" rx="67.514" ry="40.929"/>
+  <line style="stroke-width: 5px; stroke: rgb(205, 236, 1); stroke-dasharray: 2px;" x1="358.635" y1="147.02" x2="535.635" y2="146.495" transform="matrix(0.829038, 0.559193, -0.559193, 0.829038, 158.509004, -224.944679)"/>
+  <line style="stroke-width: 5px; stroke: rgb(76, 83, 53);" x1="367.376" y1="95.474" x2="367.376" y2="203.874"/>
+  <line style="stroke-width: 5px; stroke: rgb(205, 236, 1); stroke-dasharray: 8px;" x1="526.507" y1="95.43" x2="526.507" y2="203.829"/>
+  <rect style="stroke-width: 5px; stroke: rgb(76, 83, 53); fill: none;" x="369.466" y="234.761" width="163.515" height="103.56" rx="10" ry="10"/>
+  <rect style="fill: rgb(186, 218, 85);" x="364.794" y="9.734" width="163.515" height="59.953" rx="5" ry="5"/>
+  <rect style="stroke-width: 3px; stroke-dasharray: 5px; stroke: rgb(255, 13, 0); fill: rgb(212, 255, 184);" x="105.895" y="266.295" width="145" height="75" rx="15" ry="15"/>
+</svg>

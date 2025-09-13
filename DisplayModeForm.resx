@@ -117,17 +117,307 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MainTableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ModeTableLayoutPanel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ModeTableLayoutPanel.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="ModeTableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LblShaded.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="LblShaded.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblShaded.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LblShaded.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 114</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LblShaded.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 1, 3, 8</value>
+  </data>
+  <data name="LblShaded.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 68</value>
+  </data>
+  <data name="LblShaded.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="LblShaded.Text" xml:space="preserve">
+    <value>In "Shaded mode", the elements retain their original background color (stored in the SVG file). For example, a rectangular shape is represented as a face with four edges. You can handle the element here as Face and Curves model.</value>
+  </data>
+  <data name="&gt;&gt;LblShaded.Name" xml:space="preserve">
+    <value>LblShaded</value>
+  </data>
+  <data name="&gt;&gt;LblShaded.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblShaded.Parent" xml:space="preserve">
+    <value>ModeTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;LblShaded.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LblWire.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="LblWire.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblWire.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 8</value>
+  </data>
+  <data name="LblWire.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 8, 3, 8</value>
+  </data>
+  <data name="LblWire.Size" type="System.Drawing.Size, System.Drawing">
+    <value>428, 85</value>
+  </data>
+  <data name="LblWire.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LblWire.Text" xml:space="preserve">
+    <value>The elements will be displayed in Wireframe and it is no longer possible to show them in shaded mode. In this case, you can handle, for example, a rectangle shape is represented as four edges (outline) without filling color (without the background color of an element). Here you can handle the element as a Curves model.</value>
+  </data>
+  <data name="&gt;&gt;LblWire.Name" xml:space="preserve">
+    <value>LblWire</value>
+  </data>
+  <data name="&gt;&gt;LblWire.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblWire.Parent" xml:space="preserve">
+    <value>ModeTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;LblWire.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RBWire.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RBWire.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 8</value>
+  </data>
+  <data name="RBWire.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 3, 8</value>
+  </data>
+  <data name="RBWire.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 21</value>
+  </data>
+  <data name="RBWire.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="RBWire.Text" xml:space="preserve">
+    <value>Wire</value>
+  </data>
+  <data name="&gt;&gt;RBWire.Name" xml:space="preserve">
+    <value>RBWire</value>
+  </data>
+  <data name="&gt;&gt;RBWire.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RBWire.Parent" xml:space="preserve">
+    <value>ModeTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;RBWire.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RBShaded.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RBShaded.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 109</value>
+  </data>
+  <data name="RBShaded.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 8, 3, 8</value>
+  </data>
+  <data name="RBShaded.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 21</value>
+  </data>
+  <data name="RBShaded.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="RBShaded.Text" xml:space="preserve">
+    <value>Shaded</value>
+  </data>
+  <data name="&gt;&gt;RBShaded.Name" xml:space="preserve">
+    <value>RBShaded</value>
+  </data>
+  <data name="&gt;&gt;RBShaded.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RBShaded.Parent" xml:space="preserve">
+    <value>ModeTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;RBShaded.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ModeTableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ModeTableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="ModeTableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ModeTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 225</value>
+  </data>
+  <data name="ModeTableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ModeTableLayoutPanel.Name" xml:space="preserve">
+    <value>ModeTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;ModeTableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ModeTableLayoutPanel.Parent" xml:space="preserve">
+    <value>MainTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;ModeTableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ModeTableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="LblShaded" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="LblWire" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="RBWire" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="RBShaded" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,Percent,100" /&gt;&lt;Rows Styles="Percent,50,Percent,50,Absolute,23" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="ConfirmTableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="BtnSelect.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAABDFJREFUSEut
+        VetP02cY/QV1OjYmOOcmCEO3QGQZohQBBVqg2GqhdpQOCgKFlvvAQooVCAymggm3Oe4UVkU0wBj3AqVA
+        x2WC3DoqAbpMWJb5uX/C2Qtp9oEwZ8GT/L68Ob/neXLec56XeluwaLSwPqQ4JHq3+UjhB0orken47WCr
+        +EHFQZ13tw+CB3lg9AXg48cfbZ56etLNRNkfSHFtpEaE8qVa3JkrQ9HzUmRMyeDY5qA1UfYOIgvvbLsL
+        Kn6rhXQqF5c62Qjs4SF2NBWft5+BibY3HG56x9rmoY3x27li3F/8HgG9XFzuYoHdz4d4PB0unc77a0Au
+        tPL6cCge6OsRO54Mei8HAf0hiP8lDQKNEK5dLt0mqvl470dLN4cn9qhZUaBwoQRMFRdBg9cRNS5G8vRN
+        XOx1N17o+dLRRDcfxIq67NkcVK00IHw8Fhw1H4LxaGQ+l4M5FAj3HlepiWo+jj60kjJVQWhcVyJnoQC8
+        sXCEaaOQNS9H3LQYtJ5ze3eP9aOjjnZPbI3Vq/V4sFqNiMkYRExFI30+E7d1efDu9zB69l3YIU0NZU3V
+        UiLySak66rXh+LDFpjtpOgX1BgUSZ1Px1aQAkTPRkOtzEDJ6DV597jukqabcLBssjX5dAWD1cWDXcgpU
+        PdVNNZCmO3C85RjDo4eGqvU6yMm0nEku+M8EkOllSJiTkOndd5GmhtqUTeaibLFmO4HFCxVgq4JBGugO
+        NB74t8mJx8ett+JfoCvED4YaCGej8PVsODL0Gchfy4PfoLfRZ+DiLq6ptkDlYi0ko8Ra7UywevmIG0vD
+        VWK7I82HdcQt2z990nqiMEIbgYY/FMhalkE4L0SKPgnFL++CP8GFr8rzP1xTRxnvzZcjfEgCWnsAPn3k
+        CuenNHCHIsBVh8K29aSRFBd90XmWTF6FMkM5YhZjkKiXoHjjDrJXpKS412tcU08VevzshYyJ2zjfRsex
+        5tOwbXGGS4cHBGPRyJjNxGftp5G7lAfFRhNSl1Mh0cfju5cFKP/rPpjDdCNj8PL/BKqBUtq1OMKviwP3
+        n+hwaHWBU8d5ePYzEDMtwa2lHDRtNKNorQji5Tjc+j0LVa8qEPWrAP5DPm8WKHKhSvvWM2ANhMK3j0UW
+        FQ20fh/4j7CQNJeCO2t3kbAswTerKaj8uxT5BjkChnzMC5SV8n2lM1m9vBEh2GoevFR0BI6ywZvm48bC
+        DSS+EOPeJnHRqzJc1QQag9R083cNsaLSqcMJ4dpohE1EgqXlgD8ThtilGMgMmdvSxM4IcUXN2PuucWyz
+        l7p1n0P8s0Qkz6dBOCdEgl6M0j9LkL8uB0vtv/+XijwWoksDnkhfvInsF9nIM+SQBsUIGWMZr2mY5kuz
+        G2i9biKmmoFssgpKSKC2pOFogvYuzW7wU3nxAod9N9kj/sZgTVCl6fgNQVH/ADg1QftUF3ftAAAAAElF
+        TkSuQmCC
+</value>
+  </data>
+  <data name="BtnSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 19</value>
+  </data>
+  <data name="BtnSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 48</value>
+  </data>
+  <data name="BtnSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BtnSelect.Text" xml:space="preserve">
+    <value>   Select</value>
+  </data>
+  <data name="BtnSelect.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;BtnSelect.Name" xml:space="preserve">
+    <value>BtnSelect</value>
+  </data>
+  <data name="&gt;&gt;BtnSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSelect.Parent" xml:space="preserve">
+    <value>ConfirmTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;BtnSelect.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ConfirmTableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ConfirmTableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 234</value>
+  </data>
+  <data name="ConfirmTableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ConfirmTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>514, 70</value>
+  </data>
+  <data name="ConfirmTableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ConfirmTableLayoutPanel.Name" xml:space="preserve">
+    <value>ConfirmTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;ConfirmTableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConfirmTableLayoutPanel.Parent" xml:space="preserve">
+    <value>MainTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;ConfirmTableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ConfirmTableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="BtnSelect" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100,AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="MainTableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="MainTableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="MainTableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="MainTableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>520, 307</value>
+  </data>
+  <data name="MainTableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;MainTableLayoutPanel.Name" xml:space="preserve">
+    <value>MainTableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;MainTableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainTableLayoutPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MainTableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="MainTableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="ModeTableLayoutPanel" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ConfirmTableLayoutPanel" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="AutoSize,0,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
+    <value>7, 17</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>340, 151</value>
+    <value>520, 307</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>

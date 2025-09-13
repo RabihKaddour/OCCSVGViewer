@@ -1110,7 +1110,7 @@ namespace OCCSVGViewer
         {
             if (e.Node == null) return;
             if (e.Node.Tag == null) return;
-       
+
             TreeNode node = this.ModelTreeView.SelectedNode;
             if (node.Tag.GetType() == typeof(OCCModel))
             {
@@ -1149,7 +1149,41 @@ namespace OCCSVGViewer
         #region MenuStrip Handling
 
         /// <summary>
-        /// Handles the events from MenuFile -> Load Geometry File.
+        /// About dialog window.
+        /// </summary>
+        protected AboutDialog aboutDialog;
+
+        /// <summary>
+        /// Shows the about dialog.
+        /// </summary>
+        private void ShowAboutDialog()
+        {
+            if (this.aboutDialog == null)
+            {
+                this.aboutDialog = new AboutDialog();
+            }
+            this.aboutDialog.ShowDialog(this);
+        }
+
+        /// <summary>
+        /// Handles the events from MenuFile -> About.
+        /// </summary>
+        /// <param name="sender">The sender.</param>
+        /// <param name="e">The <see cref="System.EventArgs"/> instance containing the event data.</param>
+        private void AboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                ShowAboutDialog();
+            }
+            catch 
+            {
+
+            }
+        }
+
+        /// <summary>
+        /// Handles the events from MenuFile -> Load Vector File.
         /// </summary>
         /// <param name="sender">The sender.</param>
         /// <param name="e">The <see cref="System.EventArgs"/> instance containing the event data.</param>
@@ -1193,13 +1227,24 @@ namespace OCCSVGViewer
 
                     if (extension == ".svg") // Load SVG Vector Image
                     {
+                        // Ask for display mode
+                        if (DisplayModeForm.CreateAndShowDialog(this) != true)
+                        {
+                            // Nothing selected - abort
+                            return;
+                        }
+
+                        DisplayMode mode = DisplayModeForm.WireMode == true ? DisplayMode.Wireframe : DisplayMode.Shaded;
+
+                        // Info about unit type
                         UnitType unit = UnitType.None;
                         if (SVGUnitForm.CreateAndShowDialog(this) == true)
                         {
                             unit = UnitType.Pixel;
                         }
 
-                        SvgReader reader = new SvgReader(unit);
+                        // Read the SVG file
+                        SvgReader reader = new SvgReader(unit, mode);
                         OCCElement doc = reader.Open(fileName);
                         if (doc != null)
                         {
@@ -1315,5 +1360,6 @@ namespace OCCSVGViewer
         }
 
         #endregion
+
     }
 }

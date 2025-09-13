@@ -68,6 +68,7 @@
             // BtnOk
             // 
             resources.ApplyResources(BtnOk, "BtnOk");
+            BtnOk.DialogResult = DialogResult.OK;
             BtnOk.Name = "BtnOk";
             BtnOk.UseVisualStyleBackColor = true;
             BtnOk.Click += BtnOk_Click;

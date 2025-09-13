@@ -58,6 +58,7 @@
             FileToolStripMenuItem = new ToolStripMenuItem();
             LoadVectorToolStripMenuItem = new ToolStripMenuItem();
             HelpToolStripMenuItem = new ToolStripMenuItem();
+            AboutToolStripMenuItem = new ToolStripMenuItem();
             ReportToolStripMenuItem = new ToolStripMenuItem();
             StatusStrip = new StatusStrip();
             MainToolStripContainer.ContentPanel.SuspendLayout();
@@ -286,9 +287,15 @@
             // 
             // HelpToolStripMenuItem
             // 
-            HelpToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { ReportToolStripMenuItem });
+            HelpToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { AboutToolStripMenuItem, ReportToolStripMenuItem });
             HelpToolStripMenuItem.Name = "HelpToolStripMenuItem";
             resources.ApplyResources(HelpToolStripMenuItem, "HelpToolStripMenuItem");
+            // 
+            // AboutToolStripMenuItem
+            // 
+            resources.ApplyResources(AboutToolStripMenuItem, "AboutToolStripMenuItem");
+            AboutToolStripMenuItem.Name = "AboutToolStripMenuItem";
+            AboutToolStripMenuItem.Click += AboutToolStripMenuItem_Click;
             // 
             // ReportToolStripMenuItem
             // 
@@ -360,5 +367,6 @@
         private TableLayoutPanel ModelTableLayoutPanel;
         private ToolStripMenuItem HelpToolStripMenuItem;
         private ToolStripMenuItem ReportToolStripMenuItem;
+        private ToolStripMenuItem AboutToolStripMenuItem;
     }
 }
