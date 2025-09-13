@@ -9,23 +9,47 @@ The <b>OCCSVG NuGet package</b> is built upon several key technologies: .Net, C#
 
 <b>OCCSVG</b> can accurately read shapes defined in SVG files, including their strokes, fills, and other properties. 
 It supports most types of gradients, patterns, which gives designers the freedom to define their drawings in almost any vector drawing application and save them into SVG file. 
-Application developers can then use the drawings in their .NET applications. 
+Application developers can then use the drawings in their .NET applications. <br>
 
 <img width="939" height="571" alt="image" src="https://github.com/user-attachments/assets/8c336e3e-ef01-4456-81c0-9a07036cb918" />
 <img width="940" height="576" alt="image" src="https://github.com/user-attachments/assets/26e2ee65-46e3-4d0f-994f-285ff3892cf8" />
 
-## Development requirements
-  •	Microsoft Visual Studio Professional 2022 (64-bit) 
-    o	.Net Desktop workload
-    o	.Net 8 support component
-    o	C++/CLI support component
+<br>
 
+## Development requirements 
+* Microsoft Visual Studio Professional 2022 (64-bit)
+  * .Net Desktop workload</li>
+  * .Net 8 support component</li>
+  * C++/CLI support component </li>
 
+<br>
 
+## Unsupported Features (for OCCSVG Beta Version)
+* Reading <b>marker</b> elements (e.g., line starting and ending shapes)
+* Reading <b>clipPath</b> and <b>mask</b>
+* Reading <b>image</b> currently not supported
+* Reading <b>text</b> on path
 
+<br>
 
 ## About Open CASCADE Technology (OCCT)
 The complete distribution can be cloned from the https://github.com/Open-Cascade-SAS/OCCT.
 This allows you to use additional parts, build the library with different options or make code changes. The currently used version can be found in the about dialog.
 
+<br>
+
 ## Software Description
+
+<b>Start Application</b><br>
+Before you start the application, make sure that the Occt.NET dll is copied into the Application’s debug or release folder.<br>
+
+From: OCCSVGViewer\bin\Debug\net8.0-windows\occt\x64\
+<br>
+<img width="526" height="236" alt="image" src="https://github.com/user-attachments/assets/53b8efb8-0bd1-4f72-9828-07cb6a4a26c6" />
+<br>
+
+To: OCCSVGViewer\bin\Debug\net8.0-windows\
+<br>
+![Uploading image.png…]()
+<br>
+
