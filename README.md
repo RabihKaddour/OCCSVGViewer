@@ -58,6 +58,7 @@ The default unit is currently pixels. Later, user will be able to choose their o
 <img width="555" height="156" alt="image" src="https://github.com/user-attachments/assets/497a055b-8417-4189-892d-31a149e5fad2" />
 <br>
 
+<br>
 <b>Display mode (Wire or Shaded)</b><br>
 <b>Wire:</b> The SVG elements will be displayed in Wireframe and it's no longer possible to show them in shaded mode. Here you can handle the element as a Curves model, which reduces the computational effort to display them.
 <br>
