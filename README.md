@@ -47,9 +47,21 @@ From: OCCSVGViewer\bin\Debug\net8.0-windows\occt\x64\
 <br>
 <img width="526" height="236" alt="image" src="https://github.com/user-attachments/assets/53b8efb8-0bd1-4f72-9828-07cb6a4a26c6" />
 <br>
-
 To: OCCSVGViewer\bin\Debug\net8.0-windows\
 <br>
-![Uploading image.png…]()
+<img width="522" height="269" alt="image" src="https://github.com/user-attachments/assets/b3f2fc2a-8df1-4176-b267-abfed4a1863b" />
 <br>
+
+<b>Unit pixel</b><br>
+The default unit is currently pixels. Later, user will be able to choose their own units, such as inches, points, centimeters or millimeters.<br>
+
+<img width="555" height="156" alt="image" src="https://github.com/user-attachments/assets/497a055b-8417-4189-892d-31a149e5fad2" />
+<br>
+
+<b>Display mode (Wire or Shaded)</b><br>
+<b>Wire:</b> The SVG elements will be displayed in Wireframe and it's no longer possible to show them in shaded mode. Here you can handle the element as a Curves model, which reduces the computational effort to display them.
+<br>
+<b>Shaded:</b> In "Shaded mode", the elements retain their original background color (stored in the SVG file). You can handle the element here as Face and Curves model.
+
+
 
