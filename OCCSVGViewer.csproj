@@ -24,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="OCCSVG" Version="1.0.1-alpha1" />
     <PackageReference Include="Occt.NET" Version="7.9.0" />
     <PackageReference Include="Tracetool.DotNet.Api" Version="14.0.0" />
   </ItemGroup>
@@ -45,12 +46,6 @@
 
   <ItemGroup>
     <Folder Include="Libraries\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="OCCSVG">
-      <HintPath>Libraries\OCCSVG.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>

@@ -1279,11 +1279,11 @@ namespace OCCSVGViewer
                                     this.View.DisplayShape(aisShape);
                                 }
 
-                                // Get element by class name
+                                // Get elements by class name
                                 List<PathSegment> paths = doc.GetAllElements<PathSegment>();
                                 List<Rectangle> Rectangles = doc.GetAllElements<Rectangle>();
 
-                                // Get element by name
+                                // Get element by selected node name
                                 TreeNode node = this.ModelTreeView.SelectedNode;
                                 if (node != null)
                                 {
