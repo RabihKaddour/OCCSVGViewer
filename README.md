@@ -90,4 +90,37 @@ The default unit is currently pixels. Later, user will be able to choose their o
 The report shows a system log file that lists all information about the model's load, including failed loads and bugs.<br>
 
 <img width="940" height="577" alt="image" src="https://github.com/user-attachments/assets/a3b9f1b3-d4e5-4e25-aa31-8eec5b4d8e85" />
+<br>
 
+## For Developer
+
+<code color="gray">
+OCCElement doc = reader.Open(fileName); 
+</code>
+
+<code color="gray">
+// Handling of shape outside of an OCCDocument (OCCSVG)
+foreach (var element in doc.Children)
+{
+  if (element.TopoShape == null) continue;
+  // Create AIS_Shape for visualization
+  AIS_Shape aisShape = new AIS_Shape(element.TopoShape);
+  this.View.DisplayShape(aisShape);
+}
+</code>
+
+<code color="gray">
+// Get elements by class name
+List<PathSegment> paths = doc.GetAllElements<PathSegment>();
+List<Rectangle> Rectangles = doc.GetAllElements<Rectangle>();
+</code>
+
+<code color="gray"> 
+// Get element by selected node name
+TreeNode node = this.ModelTreeView.SelectedNode;
+if (node != null)
+{
+ AOCCBaseElement element = doc.GetElementByName(node.Name);
+}
+</code>
+<br>
