@@ -43,11 +43,12 @@ This allows you to use additional parts, build the library with different option
 <b>Start Application</b><br>
 Before you start the application, make sure that the Occt.NET dll is copied into the Application’s debug or release folder.<br>
 
-From: OCCSVGViewer\bin\Debug\net8.0-windows\occt\x64\
+<b>From:</b> OCCSVGViewer\bin\Debug\net8.0-windows\occt\x64\
 <br>
 <img width="526" height="236" alt="image" src="https://github.com/user-attachments/assets/53b8efb8-0bd1-4f72-9828-07cb6a4a26c6" />
-<br>
-To: OCCSVGViewer\bin\Debug\net8.0-windows\
+<br><br>
+
+<b>To:</b> <span style="background-color: yellow;">OCCSVGViewer\bin\Debug\net8.0-windows</span>
 <br>
 <img width="522" height="269" alt="image" src="https://github.com/user-attachments/assets/b3f2fc2a-8df1-4176-b267-abfed4a1863b" />
 <br>
@@ -60,9 +61,9 @@ The default unit is currently pixels. Later, user will be able to choose their o
 
 <br>
 <b>Display mode (Wire or Shaded)</b><br>
- * <b>Wire:</b> The SVG elements will be displayed in Wireframe and it's no longer possible to show them in shaded mode. Here you can handle the element as a Curves model, which reduces the computational effort to display them.
+<b>Wire</b>: The SVG elements will be displayed in Wireframe and it's no longer possible to show them in shaded mode. Here you can handle the element as a Curves model, which reduces the computational effort to display them.
 <br>
- * <b>Shaded:</b> In "Shaded mode", the elements retain their original background color (stored in the SVG file). You can handle the element here as Face and Curves model.
+<b>Shaded:</b> In "Shaded mode", the elements retain their original background color (stored in the SVG file). You can handle the element here as Face and Curves model.
 
 
 
