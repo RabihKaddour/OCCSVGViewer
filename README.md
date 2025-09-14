@@ -4,7 +4,7 @@
 The package, available at: [OCCSVG.NET NuGet Package](https://www.nuget.org/packages/OCCSVG.NET/), is designed to import various SVG elements into a .NET application. 
 The OCCSVGViewer application also displays the topology of the SVG model and its elements in a TreeView.
 
-The <b>OCCSVG NuGet package</b> is built upon several key technologies: .Net, C#, C++/CLI. It also uses Occt.NET (version 7.9.0), which is based on Open CASCADE Technology (OCCT), is available from: 
+The <b>OCCSVG.NET NuGet package</b> is built upon several key technologies: .Net, C#, C++/CLI. It also uses Occt.NET (version 7.9.0), which is based on Open CASCADE Technology (OCCT), is available from: 
 [Occt.NET NuGet Package](https://www.nuget.org/packages/Occt.NET).
 
 <b>OCCSVG.NET</b> can accurately read shapes defined in SVG files, including their strokes, fills, and other properties. 
