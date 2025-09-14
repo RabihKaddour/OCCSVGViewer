@@ -10,12 +10,7 @@
 * File      :  OCCViewer.cs     
 * 
 * Content   :  Represents the Base Class for the OCC 3D-Viewer.
-* 
-* License:                                                                     
-* Use, modification & distribution is subject to Boost Software License Ver 1. 
-* http://www.boost.org/LICENSE_1_0.txt                                         
-*                                                                              
-* Website:  https://inovaitec.com                                              
+                                          
 *******************************************************************************/
 
 using Occt;
