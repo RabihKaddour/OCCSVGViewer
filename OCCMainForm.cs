@@ -1236,15 +1236,17 @@ namespace OCCSVGViewer
 
                         DisplayMode mode = DisplayModeForm.WireMode == true ? DisplayMode.Wireframe : DisplayMode.Shaded;
 
+                        /*
                         // Info about unit type
                         UnitType unit = UnitType.None;
                         if (SVGUnitForm.CreateAndShowDialog(this) == true)
                         {
                             unit = UnitType.Pixel;
                         }
+                        */
 
                         // Read the SVG file
-                        SvgReader reader = new SvgReader(unit, mode);
+                        SvgReader reader = new SvgReader(UnitType.Pixel, mode);
                         OCCElement doc = reader.Open(fileName);
                         if (doc != null)
                         {

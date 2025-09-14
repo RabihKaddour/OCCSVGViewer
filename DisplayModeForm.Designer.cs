@@ -61,13 +61,13 @@
             // LblShaded
             // 
             resources.ApplyResources(LblShaded, "LblShaded");
-            LblShaded.ForeColor = Color.Red;
+            LblShaded.ForeColor = Color.Black;
             LblShaded.Name = "LblShaded";
             // 
             // LblWire
             // 
             resources.ApplyResources(LblWire, "LblWire");
-            LblWire.ForeColor = Color.Red;
+            LblWire.ForeColor = Color.Black;
             LblWire.Name = "LblWire";
             // 
             // RBWire
