@@ -1,17 +1,17 @@
-# Welcome to OCCSVG
+# Welcome to OCCSVG.NET
 
-OCCSVGViewer is a <b>DEMO 3D-Viewer</b> built on <b>Occt.NET (7.9.0)</b>. It uses the <b>OCCSVG NuGet package</b> to read, interpret, and render SVG files. 
-The package, available at: [OCCSVG NuGet Package](https://www.nuget.org/packages/OCCSVG), is designed to import various SVG elements into a .NET application. 
+<b>OCCSVGViewer</b> is a <b>DEMO 3D-Viewer</b> built on <b>Occt.NET (7.9.0)</b>. It uses the <b>OCCSVG NuGet package</b> to read, interpret, and render SVG files. 
+The package, available at: [OCCSVG.NET NuGet Package](https://www.nuget.org/packages/OCCSVG.NET/), is designed to import various SVG elements into a .NET application. 
 The OCCSVGViewer application also displays the topology of the SVG model and its elements in a TreeView.
 
-The <b>OCCSVG NuGet package</b> is built upon several key technologies: .Net, C#, C++/CLI. It also uses Occt.NET (version 7.9.0), which is based on Open CASCADE Technology (OCCT), is available from: 
+The <b>OCCSVG.NET NuGet package</b> is built upon several key technologies: .Net, C#, C++/CLI. It also uses <b>Occt.NET</b> (version 7.9.0), which is based on Open CASCADE Technology (OCCT), is available from: 
 [Occt.NET NuGet Package](https://www.nuget.org/packages/Occt.NET).
 
-<b>OCCSVG</b> can accurately read shapes defined in SVG files, including their strokes, fills, and other properties. 
+<b>OCCSVG.NET</b> can accurately read shapes defined in SVG files, including their strokes, fills, and other properties. 
 It supports most types of gradients, patterns, which gives designers the freedom to define their drawings in almost any vector drawing application and save them into SVG file. 
 Application developers can then use the drawings in their .NET applications. <br>
 
-You can also use <b>OCCSVG.dll</b> for testing, copied in the Libraries folder <br>
+You can also use <b>OCCSVG.NET.dll</b> for testing, copied in the Libraries folder <br>
 <img width="299" height="143" alt="image" src="https://github.com/user-attachments/assets/ad176e8d-7632-456f-b440-f63c58445364" />
 <br>
 
@@ -34,7 +34,7 @@ You can also use <b>OCCSVG.dll</b> for testing, copied in the Libraries folder <
 
 ## Unsupported Features (for OCCSVG Beta Version)
 * Reading <b>marker</b> elements (e.g., line starting and ending shapes)
-* Reading <b>clipPath</b> and <b>mask</b>
+* Reading <b>clipPath</b> and <b>mask</b> elements
 * Reading <b>image</b> currently not supported
 * Reading <b>text</b> on path
 
