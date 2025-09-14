@@ -34,7 +34,7 @@ You can also use <b>OCCSVG.NET.dll</b> for testing, copied in the Libraries fold
 
 ## Unsupported Features (for OCCSVG Beta Version)
 * Reading <b>marker</b> elements (e.g., line starting and ending shapes)
-* Reading <b>clipPath</b> and <b>mask</b>
+* Reading <b>clipPath</b> and <b>mask</b> elements
 * Reading <b>image</b> currently not supported
 * Reading <b>text</b> on path
 
