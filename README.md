@@ -7,7 +7,7 @@ The OCCSVGViewer application also displays the topology of the SVG model and its
 The <b>OCCSVG NuGet package</b> is built upon several key technologies: .Net, C#, C++/CLI. It also uses Occt.NET (version 7.9.0), which is based on Open CASCADE Technology (OCCT), is available from: 
 [Occt.NET NuGet Package](https://www.nuget.org/packages/Occt.NET).
 
-<b>OCCSVG</b> can accurately read shapes defined in SVG files, including their strokes, fills, and other properties. 
+<b>OCCSVG.NET</b> can accurately read shapes defined in SVG files, including their strokes, fills, and other properties. 
 It supports most types of gradients, patterns, which gives designers the freedom to define their drawings in almost any vector drawing application and save them into SVG file. 
 Application developers can then use the drawings in their .NET applications. <br>
 
