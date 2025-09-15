@@ -9,7 +9,7 @@ Application developers can then use these drawings in their .NET applications.
 <b>OCCSVGViewer</b> is a <b>DEMO 3D-Viewer</b> built on <b>Occt.NET (7.9.0)</b>. It uses the <b>OCCSVG NuGet package</b> to read, interpret, and render SVG files. 
 The OCCSVGViewer application also displays the topology of the SVG model and its elements in a TreeView.
 
-The <b>OCCSVG.NET NuGet package</b> is built upon several key technologies: .Net, C#, C++/CLI. It also uses <b>Occt.NET</b> (version 7.9.0), which is based on Open CASCADE Technology (OCCT), is available from: 
+The <b>OCCSVG.NET NuGet package</b> is built upon several key technologies: .Net, C#, C++/CLI. It also uses <b>Occt.NET</b> (version 7.9.0), which is based on <b>Open CASCADE Technology (OCCT)</b>, is available from: 
 [Occt.NET NuGet Package](https://www.nuget.org/packages/Occt.NET).
 
 
