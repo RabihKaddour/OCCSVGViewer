@@ -1214,7 +1214,7 @@ namespace OCCSVGViewer
                     return;
                 }
 
-                this.Cursor = Cursors.WaitCursor;
+                //this.Cursor = Cursors.WaitCursor;
 
                 try
                 {
@@ -1244,6 +1244,9 @@ namespace OCCSVGViewer
                             unit = UnitType.Pixel;
                         }
                         */
+
+                        // Progressbar
+                        this.Cursor = Cursors.WaitCursor;
 
                         // Read the SVG file
                         SvgReader reader = new SvgReader(UnitType.Pixel, mode);

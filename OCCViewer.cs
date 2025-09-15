@@ -226,8 +226,8 @@ namespace OCCSVGViewer
             this.mTriedronColor = new Quantity_Color(Quantity_NameOfColor.Quantity_NOC_YELLOW);
 
             // Black, dark blue gradient
-            this.mBottomColor = System.Drawing.Color.White;
-            this.mTopColor = System.Drawing.Color.FromArgb(255, 0, 63, 127);
+            this.mTopColor = Color.SteelBlue; // System.Drawing.Color.FromArgb(255, 0, 0, 0);
+            this.mBottomColor = Color.White; //System.Drawing.Color.FromArgb(255, 0, 63, 127);
 
             //// Default
             //this.mTopColor = System.Drawing.Color.FromArgb(47, 47, 116);
