@@ -19,6 +19,7 @@ The **OCCSVG.NET package** is built upon several key technologies: .Net, C#, C++
 which is based on Open CASCADE Technology (OCCT), is available from: https://www.nuget.org/packages/Occt.NET.
 <br>
 
+
 You can also use <b>OCCSVG.NET.dll</b> for testing, copied in the Libraries folder <br>
 <img width="299" height="143" alt="image" src="https://github.com/user-attachments/assets/ad176e8d-7632-456f-b440-f63c58445364" />
 <br>
@@ -33,10 +34,10 @@ You can also use <b>OCCSVG.NET.dll</b> for testing, copied in the Libraries fold
 <br>
 
 ## Development requirements 
-* Microsoft Visual Studio Professional 2022 (64-bit)
-  * .Net Desktop workload</li>
-  * .Net 8 support component</li>
-  * C++/CLI support component </li>
+* Microsoft Visual Studio Professional 2022 (64-bit)**
+  * .Net Desktop workload
+  * .Net 8 support component
+  * C++/CLI support component 
 
 <br>
 
