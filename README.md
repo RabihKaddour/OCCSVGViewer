@@ -31,10 +31,10 @@ You can also use <b>OCCSVG.NET.dll</b> for testing, copied in the Libraries fold
 <br>
 
 ## Development requirements 
-* Microsoft Visual Studio Professional 2022 (64-bit)
-  * .Net Desktop workload</li>
-  * .Net 8 support component</li>
-  * C++/CLI support component </li>
+* Microsoft Visual Studio Professional 2022 (64-bit)**
+  * .Net Desktop workload
+  * .Net 8 support component
+  * C++/CLI support component 
 
 <br>
 
