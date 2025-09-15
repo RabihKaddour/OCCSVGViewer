@@ -12,8 +12,12 @@ Additionally, the **OCCSVGViewer** application can view and explore SVG files.
 ## OCCSVGViewer 
 The application is a demo using 3D-Viewer built on **Occt.NET (7.9.0)**. 
 The demo is available on the [GitHub](https://github.com/RabihKaddour/OCCSVGViewer), displays also the SVG model's topology and its elements in a TreeView. 
-It allows for editing the elements in Tree, so it can be used to see how arbitrary SVG code will be displayed using the library. 
+It allows for editing the elements in Tree, so it can be used to see how arbitrary SVG code will be displayed using the library (see picture below). 
 <br>
+
+<img width="1262" height="800" alt="screenshot11" src="https://github.com/user-attachments/assets/7959ffaa-e489-4128-b6c9-4701231a7288" />
+
+<br><br>
 
 The **OCCSVG.NET package** is built upon several key technologies: .Net, C#, C++/CLI. It also uses Occt.NET (version 7.9.0), 
 which is based on Open CASCADE Technology (OCCT), is available from: https://www.nuget.org/packages/Occt.NET.
