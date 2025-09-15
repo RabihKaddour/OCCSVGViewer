@@ -1,15 +1,23 @@
 # Welcome to OCCSVG.NET
 
-<b>OCCSVGViewer</b> is a <b>DEMO 3D-Viewer</b> built on <b>Occt.NET (7.9.0)</b>. It uses the <b>OCCSVG NuGet package</b> to read, interpret, and render SVG files. 
-The package, available at: [OCCSVG.NET NuGet Package](https://www.nuget.org/packages/OCCSVG.NET/), is designed to import various SVG elements into a .NET application. 
-The OCCSVGViewer application also displays the topology of the SVG model and its elements in a TreeView.
+## OCCSVG.NET 
+This is a library designed for reading SVG files (Scalable Vector Graphic), accurately interpreting shapes, 
+including their strokes, fills, and other properties. 
+It supports most types of gradients, patterns, which gives designers the freedom to define their drawings in almost 
+any vector drawing application and save them into SVG file. 
 
-The <b>OCCSVG.NET NuGet package</b> is built upon several key technologies: .Net, C#, C++/CLI. It also uses <b>Occt.NET</b> (version 7.9.0), which is based on Open CASCADE Technology (OCCT), is available from: 
-[Occt.NET NuGet Package](https://www.nuget.org/packages/Occt.NET).
+Additionally, the **OCCSVGViewer** application can view and explore SVG files. 
+<br>
 
-<b>OCCSVG.NET</b> can accurately read shapes defined in SVG files, including their strokes, fills, and other properties. 
-It supports most types of gradients, patterns, which gives designers the freedom to define their drawings in almost any vector drawing application and save them into SVG file. 
-Application developers can then use the drawings in their .NET applications. <br>
+## OCCSVGViewer 
+The application is a demo using 3D-Viewer built on **Occt.NET (7.9.0)**. 
+The demo is available on the [GitHub](https://github.com/RabihKaddour/OCCSVGViewer), displays also the SVG model's topology and its elements in a TreeView. 
+It allows for editing the elements in Tree, so it can be used to see how arbitrary SVG code will be displayed using the library. 
+<br>
+
+The **OCCSVG.NET package** is built upon several key technologies: .Net, C#, C++/CLI. It also uses Occt.NET (version 7.9.0), 
+which is based on Open CASCADE Technology (OCCT), is available from: https://www.nuget.org/packages/Occt.NET.
+<br>
 
 You can also use <b>OCCSVG.NET.dll</b> for testing, copied in the Libraries folder <br>
 <img width="299" height="143" alt="image" src="https://github.com/user-attachments/assets/ad176e8d-7632-456f-b440-f63c58445364" />
