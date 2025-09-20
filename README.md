@@ -9,7 +9,7 @@ any vector drawing application and save them into SVG file.
 Additionally, the **OCCSVGViewer** application can view and explore SVG files. 
 <br>
 
-## OCCSVGViewer 
+## OCC SVG Viewer 
 The application is a demo using 3D-Viewer built on **Occt.NET (7.9.0)**. 
 The demo is available on the [GitHub](https://github.com/RabihKaddour/OCCSVGViewer), displays also the SVG model's topology and its elements in a TreeView. 
 It allows for editing the elements in Tree, so it can be used to see how arbitrary SVG code will be displayed using the library (see picture below). 
