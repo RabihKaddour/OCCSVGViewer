@@ -107,12 +107,16 @@ The report shows a system log file that lists all information about the model's 
 
 ## For Developer
 
-<code color="gray">
-OCCElement doc = reader.Open(fileName); 
-</code>
+# Standard code:
+<br>
+<img width="571" height="357" alt="image" src="https://github.com/user-attachments/assets/881ad13c-b37e-4f67-901e-84e61913dd04" />
+<br>
+
 
 <code color="gray">
-// Handling of shape outside of an OCCDocument (OCCSVG)
+// Handling of shape outside of an OCCSVG.NET
+OCCElement doc = reader.Open(fileName); 
+
 foreach (var element in doc.Children)
 {
   if (element.TopoShape == null) continue;
