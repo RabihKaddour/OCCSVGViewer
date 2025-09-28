@@ -9,11 +9,15 @@ any vector drawing application and save them into SVG file.
 Additionally, the **OCCSVGViewer** application can view and explore SVG files. 
 <br>
 
-## OCCSVGViewer 
+## OCC SVG Viewer 
 The application is a demo using 3D-Viewer built on **Occt.NET (7.9.0)**. 
 The demo is available on the [GitHub](https://github.com/RabihKaddour/OCCSVGViewer), displays also the SVG model's topology and its elements in a TreeView. 
-It allows for editing the elements in Tree, so it can be used to see how arbitrary SVG code will be displayed using the library. 
+It allows for editing the elements in Tree, so it can be used to see how arbitrary SVG code will be displayed using the library (see picture below). 
 <br>
+
+<img width="1262" height="800" alt="screenshot11" src="https://github.com/user-attachments/assets/7959ffaa-e489-4128-b6c9-4701231a7288" />
+
+<br><br>
 
 The **OCCSVG.NET package** is built upon several key technologies: .Net, C#, C++/CLI. It also uses Occt.NET (version 7.9.0), 
 which is based on Open CASCADE Technology (OCCT), is available from: https://www.nuget.org/packages/Occt.NET.
@@ -103,12 +107,16 @@ The report shows a system log file that lists all information about the model's 
 
 ## For Developer
 
-<code color="gray">
-OCCElement doc = reader.Open(fileName); 
-</code>
+# Standard code:
+<br>
+<img width="571" height="357" alt="image" src="https://github.com/user-attachments/assets/881ad13c-b37e-4f67-901e-84e61913dd04" />
+<br>
+
 
 <code color="gray">
-// Handling of shape outside of an OCCDocument (OCCSVG)
+// Handling of shape outside of an OCCSVG.NET
+OCCElement doc = reader.Open(fileName); 
+
 foreach (var element in doc.Children)
 {
   if (element.TopoShape == null) continue;
