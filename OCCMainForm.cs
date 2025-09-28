@@ -1255,9 +1255,14 @@ namespace OCCSVGViewer
                         {
                             if (doc.NbrChildren > 0)
                             {
+                                // Sets the Top side of the view
                                 this.View.TopView();
-
+                                // Sets the OCC context
                                 doc.SetOCCContext(this.View.GetAISContext());
+                                // Display all elements.
+                                doc.Display(true);
+                                // Fit all
+                                this.View?.ZoomAllView();
 
                                 //// Fill the tree
                                 //this.FillTree(doc);
@@ -1266,15 +1271,9 @@ namespace OCCSVGViewer
                                 this.FillTree(doc, this.RootNode.Nodes);
                                 this.RootNode.Expand();
 
-                                // Display all elements.
-                                doc.Display(true);
-
-                                // Fit all
-                                this.View?.ZoomAllView();
-
                                 return;
 
-                                // Alternative: Handling of shape outside of an OCCDocument
+                                // Alternative: Handling of shape outside of [OCCSVG.NET]
                                 foreach (var element in doc.Children)
                                 {
                                     if (element.TopoShape == null) continue;

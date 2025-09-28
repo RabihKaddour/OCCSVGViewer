@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="OCCSVG.NET" Version="1.0.1-alpha4" />
+    <PackageReference Include="OCCSVG.NET" Version="1.0.1-beta1" />
     <PackageReference Include="Occt.NET" Version="7.9.0" />
     <PackageReference Include="Tracetool.DotNet.Api" Version="14.0.0" />
   </ItemGroup>
