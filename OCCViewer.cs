@@ -223,7 +223,7 @@ namespace OCCSVGViewer
             this.mUseStaticTrihedronAxis = true;
             this.mTrihedronScale = 0.1;
             this.mTriedronPosition = Aspect_TypeOfTriedronPosition.Aspect_TOTP_RIGHT_LOWER;
-            this.mTriedronColor = new Quantity_Color(Quantity_NameOfColor.Quantity_NOC_YELLOW);
+            this.mTriedronColor = new Quantity_Color(Quantity_NameOfColor.Quantity_NOC_BLACK);
 
             // Black, dark blue gradient
             this.mTopColor = Color.SteelBlue; // System.Drawing.Color.FromArgb(255, 0, 0, 0);

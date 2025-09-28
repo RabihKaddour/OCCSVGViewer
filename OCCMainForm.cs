@@ -1273,6 +1273,7 @@ namespace OCCSVGViewer
 
                                 return;
 
+                                /*
                                 // Alternative: Handling of shape outside of [OCCSVG.NET]
                                 foreach (var element in doc.Children)
                                 {
@@ -1293,6 +1294,7 @@ namespace OCCSVGViewer
                                 {
                                     AOCCBaseElement element = doc.GetElementByName(node.Name);
                                 }
+                                */
                             }
                         }
                         else
